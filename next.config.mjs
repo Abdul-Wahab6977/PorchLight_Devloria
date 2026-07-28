@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    // Vercel build ke doran ESLint errors ignore karne ke liye
+    // Vercel build ke waqt ESLint errors ko ignore karega
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // Production build pass karne ke liye
+    // TypeScript errors bypass karne ke liye
     ignoreBuildErrors: true,
   },
 };
