@@ -39,7 +39,7 @@ export function Footer() {
       </div>
       <div className="hairline">
         <div className="container-page flex flex-col items-center justify-between gap-2 py-5 text-xs text-ink-400 md:flex-row">
-          <span>© {new Date().getFullYear()} Porchlight.</span>
+          <span>© {new Date().getFullYear()} Porchlight. All rights reserved.</span>
           <span className="flex items-center gap-1.5">
             <span className="beacon" /> Every light is a home worth finding.
           </span>
