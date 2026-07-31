@@ -82,12 +82,6 @@ export default function LoginPage() {
             Create an account
           </Link>
         </p>
-
-        <div className="mt-6 rounded-md border border-dashed border-paper-line bg-paper p-3 text-xs leading-relaxed text-ink-400">
-          <strong className="text-ink-500">Demo accounts</strong> (after running the seed script):
-          <br />agent@porchlight.dev / password123
-          <br />buyer@porchlight.dev / password123
-        </div>
       </div>
     </div>
   );
